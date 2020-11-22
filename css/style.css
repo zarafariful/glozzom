@@ -1,0 +1,107 @@
+*{}
+body{
+
+}
+/* NAVIGATION */
+.navbar{
+  background: #000;
+}
+nav ul li.nav-item{
+  text-transform: uppercase;
+  padding-left: 1em;
+}
+.navbar-toggler:focus,
+.navbar-toggler:hover{
+  outline: none;
+}
+/* CAROUSEL */
+.carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background-image: url("../img/image1.jpeg");
+  background-size: cover;
+}
+.carousel-img-2{
+  background-image: url("../img/image2.jpeg");
+  background-size: cover;
+}
+.carousel-img-3{
+  background-image: url("../img/image3.jpeg");
+  background-size: cover;
+}
+/* HOME ICON */
+#homeIcon i{
+  font-size:50px;
+}
+/* HOME STARTED */
+#homeStarted{
+  background: url("../img/bg1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.dark-overlay{
+  background:rgba(0,0,0,0.7);
+  height: 100%;
+}
+/* HOME PEOPLE */
+#homePeople{
+  background: url("../img/people.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#homePeople a i{
+  font-size: 50px;
+  color:#ff0000;
+}
+/* GALLERY */
+#gallery a img{
+  width: 100%;
+  height: 250px;
+}
+/* FOOTER */
+#footer{
+  background: #000;
+}
+
+/* about home section */
+#aboutHome{
+  background: url("../img/image1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* about info section*/
+#aboutInfo img{
+  width:350px;
+  height: 350px;
+}
+/* icon boxes section*/
+#iconBoxes i{
+  font-size: 50px;
+}
+/* testimonial slick */
+#testimonial .slick-prev:before,
+#testimonial .slick-next:before{
+  color:#000;
+}
+/* services home section */
+#servicesHome{
+  background: url("../img/image3.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* MEDIA QUERY CSS */
+@media(max-width:767px){
+  nav ul li.nav-item{
+    padding-left: 0;
+  }
+}
+@media(max-width:480px){
+  .carousel-caption h2{
+    font-size:2.7rem;
+    padding-bottom: 0;
+  }
+}
